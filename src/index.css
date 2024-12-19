@@ -62,3 +62,21 @@ input::placeholder{
     align-items: center;
     gap:4rem
 }
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card {
+    min-height: 450px; /* Ensures all cards have the same minimum height */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced out evenly */
+  }
+  
+ 
+    
